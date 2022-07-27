@@ -57,6 +57,19 @@
                 "cut the bagel",
                 "spread butter on bagel"
             ]
+        },
+        {
+            "name": "Pizza",
+            "ingredients": [
+                "Flour",
+                "Tomato Sauce",
+                "Cheese"
+            ],
+            "instructions": [
+                "Apply sauce onto dough",
+                "spread Cheese on sauce",
+                "Cook in oven for 15 minutes"
+            ]
         }
     ]
 }

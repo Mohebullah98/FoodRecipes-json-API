@@ -66,7 +66,7 @@ http://localhost:3000/recipes/details/{itemName}
 ```
 Ingredients and number of steps to prepare item.
 
-## Create a new Recipe
+## Create a new recipe
 ### POST
 
 ```
@@ -93,7 +93,7 @@ created
 ```
 Note: If the recipe already exists, you will get a message that states it already exists.
 
-## Replace an existing Recipe
+## Replace an existing recipe
 ### PUT
 
 ```
@@ -119,5 +119,17 @@ input: Recipe with updated body in json format
 ### Output:
 
 204 Status with no response.
+
+Note: If the recipe does not exist, you will get a message that states it doesn't exist.
+
+## Delete an existing recipe
+### DELETE
+
+```
+http://localhost:3000/recipes/Details/{foodName}
+```
+
+### Output
+200 Status with no response
 
 Note: If the recipe does not exist, you will get a message that states it doesn't exist.
